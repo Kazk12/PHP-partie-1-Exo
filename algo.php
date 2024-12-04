@@ -96,13 +96,11 @@ $division = 45 / 5;
         <h2>
             Exo5
         </h2>
-        <p>
-            <?php echo $number ?>
-        </p>
-        <?php $number = 15; ?>
-        <p>
-            <?php echo $number ?>
-        </p>
+        <?php
+        echo $number;
+        $number = 15;
+        echo $number;
+        ?>   
     </div>
     <div class="Exo6">
         <h2>
